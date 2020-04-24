@@ -126,7 +126,7 @@
     .nav-bar {
         display: none;
     }
-@media all and (max-width: 375px) {
+@media all and (max-width: 425px) {
         .background {
             height:60%;
             width:180%;
