@@ -174,12 +174,51 @@
         footer {
             height:60px;
             width:180%;
-            font-size: 15px;
+            font-size: 12px;
         }
         
         footer li a {
             margin-right:2px;
             font-size: 10px;
+        }
+        .menu-icon {
+            display:block !important;
+        }
+        .nav-bar {
+            display: none;
+        }
+    }
+@media all and (max-width: 320px) {
+        .background {
+            height:60%;
+            width:182%;
+            background-size: cover;
+        }
+        .background h3 {
+            font-size: 20px;
+        }
+        
+        .bprofile {
+            width: 182%;
+            height: 700px;
+        }
+        .bprofile:hover {
+            height:920px;
+        }
+        .profile {
+            float: left;
+            width: 45%;
+        }
+    
+        footer {
+            height:50px;
+            width:181%;
+            font-size: 11px;
+        }
+        
+        footer li a {
+            margin-right:2px;
+            font-size: 8px;
         }
         .menu-icon {
             display:block !important;
