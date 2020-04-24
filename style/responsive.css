@@ -219,6 +219,7 @@
         footer li a {
             margin-right:2px;
             font-size: 8px;
+            padding:1px 1px 1px 1px;
         }
         .menu-icon {
             display:block !important;
