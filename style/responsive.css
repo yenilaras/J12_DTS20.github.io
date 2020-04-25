@@ -1,4 +1,7 @@
 @media all and (max-width:1000px) {
+    header {
+        width:100%;
+    }
     .background {
         height:60%;
         width:180%;
@@ -60,6 +63,9 @@
     }
 }
 @media all and (max-width:425px) {
+        header {
+        width:100%;
+        }    
         .background {
             height:60%;
             width:180%;
@@ -127,6 +133,9 @@
 }
 
 @media all and (max-width: 320px) {
+        header {
+        width:100%;
+        }
         .background {
             height:60%;
             width:182%;
