@@ -1,71 +1,4 @@
-@media only screen and (max-width: 1000px) {
-    .background {
-        height:60%;
-        width:120%;
-        background-size: cover;
-    }
-    .background h3 {
-        font-size: 35px;
-    }
-    .slogan {
-        display: flex;
-        height: 50vh;
-    }
-        
-    .isislogan {
-            width: 70%;
-            margin: 40px auto;
-    }
-        
-    .isislogan h5 {
-            font-size: 15px;
-    }
-    .isislogan h5:hover {
-        position: relative;
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-        font-weight: 600;
-    }
-
-    .isislogan h6 {
-        font-size: 20px;
-    }
-    .bprofile {
-        width: 120%;
-    }
-    img {
-        width: 110px;
-        height: 130px;
-    }
-    img:hover {
-        width: 110px;
-        height: 130px;
-    }
-    .profile .paragraph {
-        font-size: 15px;
-    }
-    .btn {
-        padding: 2px 2px;
-        margin:1px;
-        font-size: 15px;
-    }
-    .bprofile {
-        height: 300px;
-    }
-    
-    .bprofile:hover {
-        height:580px;
-    }
-    .deskripsi{
-        font-size: 12px;
-    }
-    footer {
-        height:60px;
-        width:120%;
-    }
-}
-
-@media (min-width:426px) and (max-width:768px) {
+@media (min-width:426px) and (max-width:1000px) {
     .background {
         height:60%;
         width:180%;
@@ -99,10 +32,10 @@
     }
     .bprofile {
         width: 180%;
-        height: 550px;
+        height: 700px;
     }
     .bprofile:hover {
-        height:900px;
+        height:1080px;
     }
     .profile {
         float: left;
@@ -150,7 +83,6 @@
         }
         .isislogan h5:hover {
             position: relative;
-            color: rgb(0, 0, 0);
             font-size: 30px;
             font-weight: 600;
         }
@@ -160,10 +92,10 @@
         }
         .bprofile {
             width: 180%;
-            height: 750px;
+            height: 1000px;
         }
         .bprofile:hover {
-            height:1050px;
+            height:1240px;
         }
         .profile {
             float: left;
@@ -201,7 +133,11 @@
             background-size: cover;
         }
         .background h3 {
-            font-size: 20px;
+            font-size: 23px;
+        }
+        .slogan {
+            display: flex;
+            height: 50vh;
         }
         .isislogan {
             width: 70%;
@@ -222,10 +158,10 @@
         }
         .bprofile {
             width: 182%;
-            height: 700px;
+            height: 950px;
         }
         .bprofile:hover {
-            height:1050px;
+            height:1250px;
         }
         .profile {
             float: left;
