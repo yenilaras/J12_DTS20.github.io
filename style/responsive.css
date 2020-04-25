@@ -60,7 +60,7 @@
     }
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 500px) {
         .background {
             height:60%;
             width:182%;
@@ -95,7 +95,7 @@
             height: 950px;
         }
         .bprofile:hover {
-            height:1720px;
+            height:1320px;
         }
         .profile {
             float: left;
