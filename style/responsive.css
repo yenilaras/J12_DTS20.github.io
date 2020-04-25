@@ -95,13 +95,16 @@
             height: 950px;
         }
         .bprofile:hover {
-            height:1270px;
+            height:1450px;
         }
         .profile {
             float: left;
             width: 45%;
         }
         .profile .paragraph {
+            font-size: 21px;
+        }
+        .deskripsi{
             font-size: 20px;
         }
         footer {
