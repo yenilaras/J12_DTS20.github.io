@@ -1,4 +1,4 @@
-@media all and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
     .background {
         height:60%;
         width:120%;
@@ -194,7 +194,7 @@
         }
 }
 
-@media all and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
         .background {
             height:60%;
             width:182%;
@@ -239,7 +239,6 @@
             width:181%;
             font-size: 11px;
         }
-        
         footer li a {
             margin-right:2px;
             font-size: 8px;
