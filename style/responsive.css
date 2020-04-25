@@ -1,77 +1,135 @@
 @media all and (max-width:1000px) {
+    header {
+        width:100%;
+        height:70px;
+    }
+    .nav-bar li {
+        margin-right:5px;
+    }
+    .nav-bar li a {
+        padding: 10px 10px 10px 10px;
+        color:rgb(255, 255, 255);
+        position: relative;
+        font-weight: bold;
+    }
+    .title {
+        font-size:25px;
+    }
     .background {
         height:60%;
-        width:180%;
+        width:100%;
         background-size: cover;
+        background-position: center;
+        padding: 180px 0px 440px 0px;
     }
     .background h3 {
-        font-size: 35px;
+        font-size: 25px;
+        letter-spacing: 6px;
+        margin-bottom: 130px;
     }
     .slogan {
         display: flex;
         height: 50vh;
+        margin-top: 30px;
     }
-        
     .isislogan {
         width: 70%;
         margin: 40px auto;
     }
         
     .isislogan h5 {
-            font-size: 25px;
+        font-size: 15px;
+        padding: 15px 0px 15px 0px;
     }
     .isislogan h5:hover {
-        position: relative;
-        font-size: 30px;
+        font-size: 17px;
         font-weight: 600;
+        
     }
-
     .isislogan h6 {
-        font-size: 25px;
+        font-size: 15px;
+        margin-top: 1px;
+    }
+    .heading h2 {
+        font-size:23px;
     }
     .bprofile {
-        width: 180%;
-        height: 700px;
-    }
+        width: 100%;
+        height: 850px;
+    }  
     .bprofile:hover {
-        height:1080px;
+        height: 1020px;
+    } 
+    img {
+        width: 130px;
+        height: 150px;
+    }
+    img:hover {
+        width: 130px;
+        height: 150px;
     }
     .profile {
         float: left;
-        width: 30%;
-        padding-right: 25px;
+        width: 50%;
+        margin-bottom:20px;
+        padding: 0px;
     }
     .profile .paragraph {
-        font-size: 25px;
+        font-size: 17px;
     }
     .deskripsi{
-        font-size: 22px;
+        font-size: 12px;
     }
+    .kiri  {
+        float: left;
+        margin-left: 20px;
+    }
+
     footer {
-        height:90px;
-        width:180%;
-        font-size: 25px;
+        height:60px;
+        width:100%;
+        font-size: 15px;
     }
-    
+    footer ul {
+        margin:16px 0px 5px 0px;
+        padding:1px 1px 1px 1px;
+    }
     footer li a {
-        margin-right:10px;
-        font-size: 20px;
-        padding:10px 5px 10px 5px;
+        margin:0px 5px 5px 0px;
+        font-size: 15px;
+        padding:1px 1px 1px 1px;
+        font-weight: bold;
     }
+
 }
 
 @media all and (max-width: 500px) {
+        header {
+            width:100%;
+            height:60px;
+        }
+        .menu-icon {
+            padding: 20px 30px;
+        }
+        .title {
+            font-size:20px;
+        }
         .background {
             height:60%;
-            width:182%;
+            width:100%;
             background-size: cover;
+            background-position: center;
+            padding: 180px 0px 140px 0px;
         }
         .background h3 {
-            font-size: 23px;
+            font-size: 19px;
+            letter-spacing: 0px;
+            margin:20px 0px 20px 0px;
         }
         .slogan {
             display: flex;
             height: 50vh;
+            margin-top: 30px;
         }
         .isislogan {
             width: 70%;
@@ -79,50 +137,74 @@
         }
             
         .isislogan h5 {
-            font-size: 15px;
-            padding: 20px 0px 20px 0px;
+            font-size: 14px;
+            padding: 15px 0px 15px 0px;
         }
         .isislogan h5:hover {
-            position: relative;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 600;
             
         }
-    
         .isislogan h6 {
-            font-size: 20px;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        .heading h2 {
+            font-size:20px;
         }
         .bprofile {
-            width: 182%;
-            height: 950px;
-        }
+            width: 100%;
+            height: 1350px;
+        }  
         .bprofile:hover {
-            height:1320px;
+            height:1590px;
+        } 
+        img {
+            width: 130px;
+            height: 150px;
+        }
+        img:hover {
+            width: 130px;
+            height: 150px;
         }
         .profile {
             float: left;
-            width: 45%;
+            width: 100%;
+            margin-bottom:30px;
+            padding: 0px;
         }
         .profile .paragraph {
-            font-size: 21px;
-        }
-        .deskripsi{
             font-size: 15px;
         }
+        .deskripsi{
+            font-size: 13px;
+        }
+        .kiri  {
+            float: left;
+            margin-left: 20px;
+        }
+        .kanan  {
+            width:13%;
+        }
         footer {
-            height:60px;
-            width:181%;
-            font-size: 12px;
+            height:40px;
+            width:100%;
+            font-size: 10px;
+        }
+        footer ul {
+            margin:2px 0px 0px 0px;
+            padding:1px 1px 1px 1px;
         }
         footer li a {
-            margin-right:5px;
+            margin:0px 2px 2px 0px;
             font-size: 10px;
-            padding:10px 5px 10px 5px;
+            padding:1px 1px 1px 1px;
+            font-weight: normal;
         }
         .menu-icon {
             display:block !important;
         }
         .nav-bar {
             display: none;
-    }
+        }
 }
