@@ -126,7 +126,6 @@
     .nav-bar {
         display: none;
     }
-}
 @media all and (max-width: 425px) {
         .background {
             height:60%;
@@ -188,8 +187,7 @@
         .nav-bar {
             display: none;
         }
-}
-
+    }
 @media all and (max-width: 320px) {
         .background {
             height:60%;
@@ -228,5 +226,6 @@
         }
         .nav-bar {
             display: none;
+        }
     }
 }
