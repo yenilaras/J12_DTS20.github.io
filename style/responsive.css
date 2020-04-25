@@ -1,4 +1,4 @@
-@media all and (max-width:1000px) {
+@media all and (max-width:800px) {
     .background {
         height:60%;
         width:180%;
@@ -48,17 +48,18 @@
         font-size: 25px;
     }
     footer {
-        height:60px;
+        height:90px;
         width:180%;
-        font-size: 15px;
+        font-size: 25px;
     }
     
     footer li a {
-        margin-right:2px;
-        font-size: 10px;
+        margin-right:10px;
+        font-size: 20px;
+        padding:10px 5px 10px 5px;
     }
 }
-@media all and (max-width:725px) {
+@media all and (max-width:425px) {
         .background {
             height:60%;
             width:180%;
@@ -115,7 +116,8 @@
         
         footer li a {
             margin-right:2px;
-            font-size: 10px;
+            font-size: 15px;
+            padding:10px 5px 10px 5px;
         }
         .menu-icon {
             display:block !important;
@@ -170,14 +172,14 @@
             font-size: 20px;
         }
         footer {
-            height:50px;
+            height:60px;
             width:181%;
-            font-size: 11px;
+            font-size: 12px;
         }
         footer li a {
-            margin-right:2px;
-            font-size: 8px;
-            padding:1px 1px 1px 1px;
+            margin-right:5px;
+            font-size: 10px;
+            padding:10px 5px 10px 5px;
         }
         .menu-icon {
             display:block !important;
