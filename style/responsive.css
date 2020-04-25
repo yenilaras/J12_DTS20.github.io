@@ -1,7 +1,4 @@
 @media all and (max-width:1000px) {
-    header {
-        width:100%;
-    }
     .background {
         height:60%;
         width:180%;
@@ -25,7 +22,6 @@
     }
     .isislogan h5:hover {
         position: relative;
-        color: rgb(0, 0, 0);
         font-size: 30px;
         font-weight: 600;
     }
@@ -62,10 +58,7 @@
         font-size: 10px;
     }
 }
-@media all and (max-width:425px) {
-        header {
-        width:100%;
-        }    
+@media all and (max-width:725px) {
         .background {
             height:60%;
             width:180%;
@@ -132,10 +125,7 @@
         }
 }
 
-@media all and (max-width: 320px) {
-        header {
-        width:100%;
-        }
+@media all and (max-width: 480px) {
         .background {
             height:60%;
             width:182%;
