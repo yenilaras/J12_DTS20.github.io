@@ -65,14 +65,14 @@
     }
 }
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 768px) {
     .background {
         height:60%;
         width:180%;
         background-size: cover;
     }
     .background h3 {
-        font-size: 25px;
+        font-size: 35px;
     }
     .slogan {
         display: flex;
@@ -85,31 +85,36 @@
     }
         
     .isislogan h5 {
-            font-size: 15px;
+            font-size: 25px;
     }
     .isislogan h5:hover {
         position: relative;
         color: rgb(0, 0, 0);
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 600;
     }
 
     .isislogan h6 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .bprofile {
         width: 180%;
-        height: 500px;
+        height: 550px;
     }
     .bprofile:hover {
-        height:700px;
+        height:900px;
     }
     .profile {
         float: left;
         width: 30%;
         padding-right: 25px;
     }
-
+    .profile .paragraph {
+        font-size: 25px;
+    }
+    .deskripsi{
+        font-size: 25px;
+    }
     footer {
         height:60px;
         width:180%;
@@ -120,12 +125,7 @@
         margin-right:2px;
         font-size: 10px;
     }
-    .menu-icon {
-        display:block !important;
-    }
-    .nav-bar {
-        display: none;
-    }
+}
 @media all and (max-width: 425px) {
         .background {
             height:60%;
@@ -133,7 +133,7 @@
             background-size: cover;
         }
         .background h3 {
-            font-size: 25px;
+            font-size: 30px;
         }
         .slogan {
             display: flex;
@@ -146,31 +146,36 @@
         }
             
         .isislogan h5 {
-            font-size: 15px;
+            font-size: 20px;
         }
         .isislogan h5:hover {
             position: relative;
             color: rgb(0, 0, 0);
-            font-size: 20px;
+            font-size: 30px;
             font-weight: 600;
         }
     
         .isislogan h6 {
-            font-size: 20px;
+            font-size: 25px;
         }
         .bprofile {
             width: 180%;
-            height: 700px;
+            height: 750px;
         }
         .bprofile:hover {
-            height:900px;
+            height:1050px;
         }
         .profile {
             float: left;
             width: 45%;
             padding-right: 25px;
         }
-    
+        .profile .paragraph {
+            font-size: 25px;
+        }
+        .deskripsi{
+            font-size: 15px;
+        }
         footer {
             height:60px;
             width:180%;
@@ -187,7 +192,8 @@
         .nav-bar {
             display: none;
         }
-    }
+}
+
 @media all and (max-width: 320px) {
         .background {
             height:60%;
@@ -197,19 +203,37 @@
         .background h3 {
             font-size: 20px;
         }
-        
+        .isislogan {
+            width: 70%;
+            margin: 40px auto;
+        }
+            
+        .isislogan h5 {
+            font-size: 15px;
+        }
+        .isislogan h5:hover {
+            position: relative;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    
+        .isislogan h6 {
+            font-size: 20px;
+        }
         .bprofile {
             width: 182%;
             height: 700px;
         }
         .bprofile:hover {
-            height:920px;
+            height:1050px;
         }
         .profile {
             float: left;
             width: 45%;
         }
-    
+        .profile .paragraph {
+            font-size: 20px;
+        }
         footer {
             height:50px;
             width:181%;
@@ -226,6 +250,5 @@
         }
         .nav-bar {
             display: none;
-        }
     }
 }
