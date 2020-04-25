@@ -65,7 +65,7 @@
     }
 }
 
-@media all and (max-width: 768px) {
+@media (min-width:426px) and (max-width:768px) {
     .background {
         height:60%;
         width:180%;
@@ -126,7 +126,7 @@
         font-size: 10px;
     }
 }
-@media all and (max-width: 425px) {
+@media (min-width:321px) and (max-width:425px) {
         .background {
             height:60%;
             width:180%;
